@@ -625,7 +625,7 @@ class OnlineTest extends JFrame implements ActionListener
 			if(current==9)
 				return(jb[2].isSelected());
 		}
-		if(kode2.isEnabled()){
+		else if(kode2.isEnabled()){
 			if(current==0)
 				return(jb[2].isSelected());
 			if(current==1)
@@ -647,7 +647,50 @@ class OnlineTest extends JFrame implements ActionListener
 			if(current==9)
 				return(jb[1].isSelected());
 		}
-
+		else if(kode3.isEnabled()){
+			if(current==0)
+				return(jb[2].isSelected());
+			if(current==1)
+				return(jb[1].isSelected());
+			if(current==2)
+				return(jb[2].isSelected());
+			if(current==3)
+				return(jb[1].isSelected());
+			if(current==4)
+				return(jb[1].isSelected());
+			if(current==5)
+				return(jb[1].isSelected());
+			if(current==6)
+				return(jb[1].isSelected());
+			if(current==7)
+				return(jb[1].isSelected());
+			if(current==8)
+				return(jb[2].isSelected());
+			if(current==9)
+				return(jb[1].isSelected());
+		}
+		else if(kode4.isEnabled()){
+			if(current==0)
+				return(jb[2].isSelected());
+			if(current==1)
+				return(jb[1].isSelected());
+			if(current==2)
+				return(jb[2].isSelected());
+			if(current==3)
+				return(jb[1].isSelected());
+			if(current==4)
+				return(jb[1].isSelected());
+			if(current==5)
+				return(jb[1].isSelected());
+			if(current==6)
+				return(jb[1].isSelected());
+			if(current==7)
+				return(jb[1].isSelected());
+			if(current==8)
+				return(jb[2].isSelected());
+			if(current==9)
+				return(jb[1].isSelected());
+		}
 		    return false;
 
 	}
